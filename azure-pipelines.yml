@@ -7,7 +7,7 @@ jobs:
     fetchDepth: 25
   - bash: git -C /tmp clone --depth 1 -q https://github.com/plume-lib/plume-scripts.git
     displayName: clone plume-scripts
-  - bash: /tmp/git-clone-related mernst azure-reuses-results-repo2
+  - bash: /tmp/plume-scripts/git-clone-related mernst azure-reuses-results-repo2
     displayName: clone azure-reuses-results-repo2
   - bash: ../azure-reuses-results-repo2/script.sh
     displayName: run test
