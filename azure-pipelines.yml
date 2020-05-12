@@ -11,5 +11,3 @@ jobs:
     displayName: clone azure-reuses-results-repo2
   - bash: ../azure-reuses-results-repo2/script.sh
     displayName: run test
-
-
